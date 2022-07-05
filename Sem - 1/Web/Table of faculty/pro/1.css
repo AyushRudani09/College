@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+.line{
+    color: rgb(145, 145, 145);
+}
+.head{
+    width: 100%;
+    height: 450px;
+    /* background-image: url('./bg_1.jpg'); */
+    /* border:2px solid black; */
+    background: url(./bg_1.jpg) no-repeat;
+}
+.head img{
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+
+}
+.headtext{
+    margin-top: 275px;
+    /* border: 2px solid black; */
+    background-color: #d61b3c;
+    width: 600px;
+    margin-left: 80px;
+}
+.headtext h1{
+    padding: 30px;
+    padding-left: 50px;
+    padding-bottom: 0;
+    font-family: "Inter", "Open Sans", Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 2.57143rem;
+    font-weight: bolder;
+}
+.headtext p{
+    padding: 30px;
+    padding-left: 50px;
+    color: white;
+    padding-top: 9px;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: "Inter", "Open Sans", Helvetica, Arial, sans-serif;
+}
+.firstline{
+    margin-left: 100px;
+    padding: 10px;
+    /* font-style: bold; */
+    font-weight: 450;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    
+}
+.firstline a{
+    text-decoration: none;
+    color: black;
+}.firstline a:hover{
+    color: #d61b3c;
+}
+.firstline span{
+    color: #d61b3c;
+}
+.hr1{
+    margin-left: 80px;
+    opacity: 30%;
+}
+.table{
+    margin-top: 200px;
+    margin-left: 50px;
+    /* border: 2px solid black; */
+    border: 1px solid rgba(119, 119, 119, 0.651);
+    height: 100%;
+}
+.box{
+    display: inline-block;
+    width: 240px;
+    margin: 30px;
+    height: 550px;
+    /* border: 2px solid black; */
+    box-shadow: 10px 10px 10px 10px rgba(128, 128, 128, 0.158);
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+.box img{
+    height: 240px;
+    width: 240px;
+    border-radius: 10px 10px 0px 0px;
+}
+.box table{
+    margin: 0;
+   align-items: center;
+}
+.box h2{
+    font-family: inherit;
+    font-weight: bolder;
+    line-height: 1.2;
+    font-size: 1.25rem;
+    padding: 5px;
+    color: black;
+    margin-top: 0px;
+}
+.box h4{
+    font-family: inherit;
+    color: #d61b3c;
+    font-weight: bold;
+    line-height: 1.4;
+    font-size: 0.85rem;
+    margin-top: -6px;
+}
+.line{
+    width: 70%;
+    margin: auto;
+    opacity: 70%;
+    margin-top: 6px;
+}
+.box p{
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: bold;
+    opacity: 70%;
+    color: black;
+    margin-top: 0px;
+}
+.box span{
+    font-family: inherit;
+    font-size: 10px;
+    font-weight: bold;
+    opacity: 70%;
+    color: black;
+    margin-top: 0px;
+    display: block;
+}
+.box div{
+    display: inline-block;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: bold;
+    padding:6px;
+    padding-top: 4px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.t1{
+    color: #3398dc;
+    background-color: #3398dc1a;
+}
+.t2{
+    color: #585f69;
+    background-color: #585f691a;
+}
+.box a{
+    display:block;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.box a:hover{
+    color: #d61b3c;
+}
+.main
+{
+    /* border:  2px solid black; */
+    margin-top: 200px;
+    height: 100%;
+}
+.right{
+    /* border: 2px solid black; */
+    margin-top: -43%;
+    width: 70%;
+    margin-left: 365px;
+}
+.left{
+    margin-left: 50px;
+}
+.right h1{
+    color: #d61b3c;
+    border-bottom:0.2px rgba(85, 85, 85, 0.514) dotted;
+}
+.right hr{
+    width: 10%;
+    border: 1px solid #555;
+    padding-left: 1px;
+    margin-top: -1.455px;
+}
+.right h4{
+    display: inline;
+}
+.right p{
+    
+    display: inline-block;
+}
+.right pre{
+    padding-left: 70px;
+    font-family: "Inter", "Open Sans", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+.right font{
+    font-weight: 200;
+}
+.right table td,th{
+    padding-top:4px;
+    padding-bottom:4px;
+    padding-left: 5px;
+    padding-right: 100px;
+    border: 0.0001cm solid #a3a3a3;
+    
+}
+.tpadding{
+    width: 70%;
+}
+.right table th{
+    background: #dee2e6;
+}

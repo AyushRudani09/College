@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+}
+.header {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.menu {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 80%;
+    font-size: 10px;
+    float: left;
+    padding-top: 30px;
+}
+.about span {
+    color: green;
+}
+.menu ul {
+    width: 50%;
+    float: right;
+}
+.menu a {
+    margin-right: 40px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+.menu1 a {
+    margin-right: 80px;
+    padding: 20px;
+    float: right;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.text {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: justify;
+    font-size: 30px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text h1 {
+    font-size: 60px;
+    color: white;
+}
+.text p {
+    color: darkgrey;
+    font-size: 20px;
+}
+.button {
+    text-decoration: none;
+    color: white;
+    border: 1px;
+    padding: 32px 40 px;
+    position: relative;
+    background-color: green;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.text button {
+    width: 50%;
+}
+@media(max-width: 700px) {
+    .text h1 {
+        font-size: 20px;
+        color: white;
+    }
+}
+.about {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.about h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+.about p {
+    color: grey;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    border bottom: 5px;
+}
+.row {
+    margin-top: 5%;
+    display: flex;
+    text-align: justify;
+}
+.row1 {
+    margin-top: 5%;
+    display: flex;
+    text-align: justify;
+}
+.ourstory {
+    margin-top: 5%;
+    display: flex;
+    text-align: justify;
+}
+.story h1 {
+    font-size: 30px;
+}
+.story p {
+    float: right;
+    color: grey;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    border bottom: 5px;
+}
+.bg1 {
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+.rasio {
+    background-color: lightgrey;
+    width: 100%;
+    height: 50vh;
+}
+.fact {
+    padding: 20px;
+}
+.fact h1 {
+    text-align: center;
+}
+.fact p {
+    text-align: center;
+    color: grey;
+}
+.fact span {
+    color: green;
+}
+.number span {
+    color: green;
+    font-size: 90px;
+}
+.num {
+    float: left;
+    margin-right: 150px;
+    padding-left: 100px;
+    text-align: center;
+}
+.client {
+    width: 100%;
+    height: auto;
+}
+.client h1 {
+    text-align: center;
+}
+.client p {
+    text-align: center;
+    color: grey;
+}
+.client span {
+    color: green;
+}
+.img {
+    width: auto;
+    height: auto;
+    float: left;
+    margin: 55px;
+}
+.img h3 {
+    text-align: center;
+    color: green;
+}
+.bmargin {
+    padding-top: 200px;
+}
+.bgimg {
+    margin: 450px;
+    text-align: center;
+    padding-top: 10px;
+    background: url(bg-7.jpg);
+}
+.bgimg p {
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+.work {
+    background-color: white;
+    text-align: center;
+}
+.menubutton {
+    text-align: center;
+    font-size: 30px;
+    word-spacing: 30px;
+    padding-top: 30px;
+}
+.menubutton a {
+    border-radius: 0.2em;
+    color: darkgrey;
+    background-color: lightgrey;
+    text-decoration: none;
+}
+.photos {
+    margin-left: 30px;
+    padding: 20px;
+    width: auto;
+}
+.pic12 {
+    width: 100%;
+}
+.pic12 img {
+    max-width: 20%;
+    padding: -2px;
+    margin: -2.5px;
+}
