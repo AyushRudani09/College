@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Enter Value:</p>
+    <input type="text" id="input">
+    <p>Enter Word:</p>
+    <input type="text" id="second_input">
+    <button onclick="fun()">check</button>
+    <script>
+        function fun() {
+            let input = document.getElementById("input").value
+            let second_input = document.getElementById("second_input").value
+            input = input.split(" ");
+            for (i = 0; i < input.length; i++) {
+                if (second_input == input[i]) {
+                    console.log(i);
+                }
+            }
+
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Enter String 1:</p>
+    <input type="text" id="string1">
+    <p>Enter String 2:</p>
+    <input type="text" id="string2">
+    <button onclick="fun()">concat</button>
+    <script>
+        function fun() {
+            let str1 = document.getElementById("string1").value;
+            let str2 = document.getElementById("string2").value;
+            let con_str = str1 + str2;
+            console.log(con_str);
+        }
+    </script>
+</body>
+
+</html>
