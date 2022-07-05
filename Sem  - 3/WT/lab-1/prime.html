@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    Eneter Number:<input type="text" id="input">
+    <button onclick="prime()">Check</button>
+    <br>
+    <p id="output"></p>
+    <script>
+        function prime() {
+            num = document.getElementById("input").value;
+            flage = 0;
+            if (num == 0) {
+                document.getElementById("output").innerHTML = "nither prime or not prime"
+            }
+            if (num == 1) {
+                document.getElementById("output").innerHTML = "prime"
+            }
+            if (num > 1) {
+                for (i = 2; i <= num / 2; i++) {
+                    a = num % i;
+                    if (a == 0) {
+                        flage = 1;
+                    }
+                }
+
+                if (flage == 0) {
+                    document.getElementById("output").innerHTML = "prime"
+                } else {
+                    document.getElementById("output").innerHTML = "not prime"
+                }
+
+            }
+
+        }
+    </script>
+</body>
+
+</html>
